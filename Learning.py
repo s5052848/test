@@ -136,3 +136,48 @@ counter = 0
 while(counter<=10):
 	print("The count is:" + str(counter))
 	counter += 1
+
+################
+#For loops
+###############
+
+name2 = "Hashim"
+
+for x in name2: #x is something like a counter that comes with the for loop it doesn't need to be declared. x doesn't need to be x
+	print(x) # Additionally what is read is stored in x
+
+names2 = ["Hashim", "Basle", "Mona","Mofeed"]
+
+for x in names2:
+	print(x)
+
+#In a dictionary
+fav_color2 = {
+	"Hashim": "Orange",
+	"Basle" : "Blue",
+	"Dad": "Green",
+	"Mum": "Purple",
+}
+for key,value in fav_color2.items():
+	print(key + " likes " + value + "!")
+#####################
+#Creating Functions
+#####################
+
+def nameit(name3):#Here name3 is a place holder for when you want to pase a variable into the function
+	print("Hello " + name3 + "!")#The function has been defined but it hasn't been used yet 
+
+######
+#To use the function->
+nameit("Hashim")#this is how it is used after being defined
+#########
+def nameit2(first_name, last_name):#Same story here but now it is expecting more than one variable
+	print("Hello " + first_name + " " + last_name + "!")
+
+nameit2("Hashim", "Mohamed")#Same thing more variables but unless both parameters are passed it won't work.
+##########
+def mathit(num6, num7):
+	return(num6 + num7) #this will give back the answer but do nothing else with it.Usually so you can take it and do other things with the answer
+#to print the answer
+print(mathit(17, 28))
+#                   ********************You can only call a function after you've defined it*********************
