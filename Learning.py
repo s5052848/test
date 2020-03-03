@@ -113,4 +113,20 @@ elif (num4 == 10):# Basically "else if"
 	print("Your number is 10!")
 else:# Else also uses ":"
 	print ("Your number is below 10!")
+####################
+#Multiple conditional statements
+# and = && / or = ||
+####################
 
+num5 = 9
+
+if (num5>10) and (num5 >100):
+	print("Your number is greater than 10 and 100!")
+elif(num5>10) and (num5<100):
+	print("Your number is between 10 and 100!")
+else:
+	print("Your number is below 10!") 
+
+##################
+#While Loops
+##################
