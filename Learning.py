@@ -92,3 +92,25 @@ print(fav_color2)
 num3 = 41 #assigned 41 to num3 using "="
 num3 +=1 #This adds the 1 to 41 then saves the result in num3
 #This applies to the other operators
+#####################
+#Comparison Operators
+# ==
+# !=
+# >
+# <
+# >=
+# <=
+#####################
+#Conditional statements 
+# if/ else / elif
+#####################
+
+num4 = 10
+
+if (num4 > 10):#Uses ":" instead of "{"
+	print ("Your number is greater than 10!") #the tab MUST be done Python is tab sensitive
+elif (num4 == 10):# Basically "else if"
+	print("Your number is 10!")
+else:# Else also uses ":"
+	print ("Your number is below 10!")
+
