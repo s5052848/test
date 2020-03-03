@@ -79,3 +79,16 @@ fav_color2.update({"Hashim":"Orange"})#This will add Hashim back to the dictiona
 print(fav_color2)
 fav_color2["Hashim"] = "Crimson"#This will change my favorite color from orange to crimson
 print(fav_color2)
+######################
+#Assignment Operators
+# = equals
+# += addition
+# -= subtraction
+# *= multiplication
+# /= division
+# **= powers
+# %= modulus
+######################
+num3 = 41 #assigned 41 to num3 using "="
+num3 +=1 #This adds the 1 to 41 then saves the result in num3
+#This applies to the other operators
