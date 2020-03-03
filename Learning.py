@@ -72,3 +72,10 @@ fav_color2 = {
 	"Dad": "Green",
 	"Mum": "Purple",
 }#Dictionary example key:variable Doesn't need to be written this way but it is the convention
+print(fav_color2["Dad"])#Give the key to get its corresponding variable
+del fav_color2["Hashim"]#removes the key and variable relating to hashim
+print(fav_color2)# Hashim should be gone
+fav_color2.update({"Hashim":"Orange"})#This will add Hashim back to the dictionary as a new entry
+print(fav_color2)
+fav_color2["Hashim"] = "Crimson"#This will change my favorite color from orange to crimson
+print(fav_color2)
