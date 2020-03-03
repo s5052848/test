@@ -1,5 +1,6 @@
 #Importing
 import os
+#import namer #Option 1
 os.system('clear')
 ####################
 #Data Types
@@ -181,3 +182,11 @@ def mathit(num6, num7):
 #to print the answer
 print(mathit(17, 28))
 #                   ********************You can only call a function after you've defined it*********************
+#######################
+#Modules https://docs.python.org/3/py-modindex.html (for existing ones)
+#######################
+ 
+#Modules need to be made in their own seperate files!
+#namer.nameit("Hashim") #Option 1
+from namer import nameit
+nameit("Hashim") 
